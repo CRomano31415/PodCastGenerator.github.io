@@ -1,0 +1,53 @@
+ body{
+  margin: 0;
+  padding:0;
+ }
+
+ button {
+  display: block;
+  width: 150px;
+  height: 150px;
+  color: black;
+  border-radius: 100%;
+  background: #BCD631;
+  border: 2px black solid;
+  text-transform: uppercase;
+  text-shadow: #CFCCC1 1px 0 10px;
+  font-family: 'Itim', cursive;
+  font-size: 1em;
+  outline: none;
+  margin: auto;
+}
+#container{
+  margin: auto;
+  padding: 10%;
+  position: static;
+ }
+
+#name{
+  opacity: 0;
+  font-family: 'Leckerli One', cursive;
+  font-size: 2em;
+  box-shadow: 10px 10px #CFCCC1;
+  border: 1px solid black;
+  height: auto;
+  background-color: #BCD631;
+  border-radius: 20%;
+  width: 200px;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+  position: static;
+}
+
+#emoji{
+  opacity: 0;
+  font-size: 3em;
+  text-align: center;
+  position: static;
+}
+
+button:hover{
+   background: #A7CFEE;
+   border: 2px black solid;
+}
